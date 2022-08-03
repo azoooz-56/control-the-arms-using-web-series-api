@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+
+ <meta charset="utf-8">
+
+ <title>speech to text</title>
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta16/shoelace.css">
+
+</head>
+
+<body >
+
+
+ <div class="container">
+
+ <h1 class="text-center mt-5">
+
+ Speech to Text
+
+ </h1>
+
+ <div class="form-group">
+
+ <textarea  id="textbox" laceholder="Press Start Recognition button to start " style="    margin: auto;
+ width: 50%;
+ padding: 10px;" rows="6"
+ readonly></textarea>
+
+
+ </div>
+ <br>
+ <div class="form-group" style="border: 5px;
+ text-align: center;">
+
+ <button id="start-btn"  class="btn btn-danger btn-block" title=""  > 
+    Start
+ </button>
+<button class = "btn btn-danger btn-block" onclick="onConnectUsb()" id="connect-usb">
+    connect
+</button>
+
+
+ 
+ <p id="instructions">Press the Start button</p>
+
+ </div>
+
+ </div>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+</script>
+<script src="speech.js"></script>
+<script src="arduino.js"></script>
+<script>
+
+
+</script>
+</body>
+
+</html>
